@@ -1,0 +1,129 @@
+/* start global rules */
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    font-family: "Outfit", sans-serif;
+} 
+.container{
+    margin-left:auto ;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+@media (min-width:768px){
+    .container{
+        width: 750px;
+    }
+}
+@media (min-width:992px){
+    .container{
+        width: 970px;
+    }
+}
+@media (min-width:1200px){
+    .container{
+        width: 1170px;
+    }
+}
+/* end global rules */
+
+
+/* start style */
+.image{
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.image img{
+    max-width: 100%;
+    border-radius: 20px;
+}
+.text h1{
+    font-size: 60px;
+}
+.text p{
+    line-height: 1.7;
+}
+.prepar{
+    background-color: rgb(255 247 252);
+    border-radius: 15px;
+    padding: 10px 20px;
+}
+.prepar  h3{
+    padding-left: 15px;
+    color: #6A2A45;
+}
+.prepar ul li{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+ li span{
+    font-size: 17px;
+    color: #555;
+}
+.ingred{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.ingred  h2{
+    padding-left: 15px;
+    color: #7d4535;
+}
+.ingred ul li{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: #555;
+}
+@media (max-width:767px){
+    
+    .ingred ul,.prepar ul,.instruc ol{
+        padding-left: 20px;
+    }
+  }
+  @media (max-width:1199px){
+    
+    .ingred ul,.prepar ul,.instruc ol{
+        padding-left: 10px;
+    }
+  }
+.instruc  h2{
+    padding-left: 15px;
+    color: #7d4535;
+}
+.instruc  li{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+.nutri{
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+.nutri h2{
+    padding-left: 15px;
+    color: #7d4535;
+}
+.nutri p{
+    font-size: 14px;
+    color: #555;
+    position: relative;
+}
+.nutri p:nth-child(2){
+    padding-bottom: 15px;
+}
+.nutri p span{
+    color:#7d4535 ;
+    left: 40%;
+    position: absolute;
+    font-size: 17px;
+}
+
+/* end style */
