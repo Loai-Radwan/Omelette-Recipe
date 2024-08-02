@@ -47,6 +47,7 @@ body{
 }
 .text p{
     line-height: 1.7;
+    font-size: 20px;
 }
 .prepar{
     background-color: rgb(255 247 252);
@@ -112,7 +113,7 @@ body{
     color: #7d4535;
 }
 .nutri p{
-    font-size: 14px;
+    font-size: 17px;
     color: #555;
     position: relative;
 }
